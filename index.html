@@ -6,6 +6,27 @@
     <meta charset="utf-8">
     <meta http-equiv="refresh" content="60">
     <style>
+      /* 768px 이하일 때 */
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #f0f0f0;
+  }
+}
+
+/* 769px 이상일 때 */
+@media screen and (min-width: 769px) {
+  body {
+    background-color: #fff;
+  }
+}
+
+/* 수평 가운데 정렬 */
+div {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
       /* body에 배경 이미지 설정 */
       body {
         background-image: url("/Documents/image/book-wall-g97d4c42f2_1920.jpg");
