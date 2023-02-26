@@ -20,11 +20,6 @@
   }
 }
 
-/* 수평 가운데 정렬 */
-div {
-  margin-left: auto;
-  margin-right: auto;
-}
 
 
       /* body에 배경 이미지 설정 */
@@ -37,14 +32,26 @@ div {
         //background-color: #8B4513; /* 배경색 설정 */
       }
       .main {
+        /* 수평 가운데 정렬 */
+        margin-left: auto;
+        margin-right: auto;
         width: 1190px; /* 가로폭 */
         padding: 30px; /* 패딩 */
         background-color: rgba(255, 255, 255, 0.7);
+      }
+      .logo {
+        text-align: center;
+        width: 200px; /* 로고 이미지의 폭 */
+        height: auto;
       }
     </style>
   </head>
   <body>
     <div class = "main">
+      <div class = "logo">
+        <h1>ASAL</h1>
+      </div>
+      
       <h1>안녕하세요</h1>
       <p>이 문서는 배경 이미지를 설정하는 예제입니다.</p>
       <br>
